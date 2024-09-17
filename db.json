@@ -1,0 +1,42 @@
+[{
+    "id": 1,
+    "name": "Cathrin",
+    "email": "Cathy74@gmail.com",
+    "phone":"+1 (123) 456-7890",
+    "status": "Active",
+    "city": "Nellai"
+},
+{
+    "id": 2,
+    "name": "Sheeba",
+    "email": "Sheeba26@gmail.com",
+    "phone":" +1 (987) 654-3210",
+    "status": "Active",
+    "city": "Chennai"
+},
+{
+    "id": 2,
+    "name": "Sheeba",
+    "email": "Sheeba26@gmail.com",
+    "phone":" +1 (987) 654-3210",
+    "status": "Active",
+    "city": "Chennai"
+},
+{
+    "id": 2,
+    "name": "Sheeba",
+    "email": "Sheeba26@gmail.com",
+    "phone":" +1 (987) 654-3210",
+    "status": "Active",
+    "city": "Chennai"
+},
+{
+    "id": 2,
+    "name": "Sheeba",
+    "email": "Sheeba26@gmail.com",
+    "phone":" +1 (987) 654-3210",
+    "status": "Active",
+    "city": "Chennai"
+}
+
+]
