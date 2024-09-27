@@ -1,35 +1,46 @@
-import React from 'react'
+import React from 'react';
+import { useNavigate } from 'react-router-dom'; // Import navigation hook
 
 function Home() {
-    return (
-        <div className='container'>
-            <div className='row'>
-                <div className='col-lg-12'>
-                    <h1>Real Estate</h1>
-                    <div class="row mt-5">
-                        <div class="col-lg-6">
-                            <img width="500" height="350" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRybz--XYWGDYMRFOk1VsIkJC9bK5ocFa0mnQ&s" />
-                        </div>
+  const navigate = useNavigate(); // Hook for programmatic navigation
 
-                        <div class="col-lg-6 pt-1">
-                            <h3>FIND YOUR DREAM HOUSE</h3>
-                            <p><b>#1.best selling Agency..! Your local area real EState specialist..!</b></p>
-                            <div class="card mt-4 bg-secondary text-white">
-                                <div class="card-body p-3">
-                                    <p>10 years on Marketing</p>
-                                    <p>5000+ Happy Clients</p>
-                                    <p>500+ Positive Ratings</p>
-                                    <p>14000+ e-mails answered</p>
-                                    <p>More offers</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+  const divStyle = {
+    backgroundImage: 'url(image/caps.jpg)',
+    height: '100vh',
+    backgroundSize: 'cover',
+    backgroundRepeat: 'no-repeat',
+    backgroundPosition: 'center',
+    display: 'flex', // Use flexbox to center content
+    flexDirection: 'column', // Stack items vertically
+    justifyContent: 'center', // Center items vertically
+    alignItems: 'center', // Center items horizontally
+    color: 'white', // Text color
+    padding: '20px', // Padding around text
+    textAlign: 'center', // Center text
+  };
 
-    )
+  return (
+    <div style={divStyle}>
+      {/* Real Estate Content */}
+      <div className="content-section" style={{ marginBottom: '20px' }}>
+        <h2>Your Dream Home Awaits</h2>
+        <p>
+          Discover luxury living with our exclusive real estate listings.<br />
+          Whether you are looking for a cozy apartment or a sprawling estate,<br />
+          we have the perfect home for you.<br />
+          Experience top-notch amenities and prime locations that meet all your needs.<br />
+          Our dedicated team is here to guide you every step of the way.
+        </p>
+      </div>
+
+      {/* Add a Next button */}
+      <button 
+        onClick={() => navigate('/register')} // Navigate to Register page
+        className="btn btn-primary mt-3">
+        Register
+      </button>
+    </div>
+  );
 }
 
-export default Home
+export default Home;

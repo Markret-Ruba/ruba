@@ -1,0 +1,15 @@
+.login-box {
+    background-color: Ghost White;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.faSignupTitle a {
+    color: #007bff;
+    font-size: 14px;
+}
+
+.faSignupTitle a:hover {
+    text-decoration: underline;
+}

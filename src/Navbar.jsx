@@ -1,22 +1,41 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from 'react';
+import './Navbar.css';
+import { Link } from 'react-router-dom';
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary">
-  <div className="container"></div>
-  <a className="navbar-brand" href="#">Navbar</a>
-  
-    <div>
-    <Link to ="/"> Home </Link>
-    <Link to ="/register"> Register </Link>
-    <Link to ="/properties"> Properties </Link>
-    <Link to ="/agent"> Agent </Link>
-    <Link to ="/email"> Email </Link>
-  </div>
-  
-  </nav>
-  )
+    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <div className="container">
+        <Link className="navbar-brand" to="/">BRANDLOGO</Link>
+        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span className="navbar-toggler-icon"></span>
+        </button>
+        <div className="collapse navbar-collapse" id="navbarNav">
+          <ul className="navbar-nav ms-auto">
+            <li className="nav-item">
+              <Link className="nav-link" to="/">Home</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/register">Register</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/login">Login</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/properties">Properties</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/agent">Agent</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/email">Email</Link>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  );
 }
 
-export default Navbar
+export default Navbar;
+ 

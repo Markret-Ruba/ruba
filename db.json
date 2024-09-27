@@ -1,42 +1,68 @@
 [{
     "id": 1,
     "name": "Cathrin",
-    "email": "Cathy74@gmail.com",
+    "email": "cathy74@gmail.com",
     "phone":"+1 (123) 456-7890",
     "status": "Active",
-    "city": "Nellai"
+    "city": "Nellai",
+    "rating": "4.5/5"
 },
 {
     "id": 2,
     "name": "Sheeba",
-    "email": "Sheeba26@gmail.com",
+    "email": "sheeba26@gmail.com",
     "phone":" +1 (987) 654-3210",
     "status": "Active",
-    "city": "Chennai"
+    "city": "Chennai",
+    "rating": "4.9/5"
 },
 {
-    "id": 2,
-    "name": "Sheeba",
-    "email": "Sheeba26@gmail.com",
-    "phone":" +1 (987) 654-3210",
-    "status": "Active",
-    "city": "Chennai"
+    "id": 3,
+    "name": "Sarah",
+    "email": "sarah23@gmail.com",
+    "phone":" +1 (785) 673-9532 ",
+    "status": "Inactive",
+    "city": "Madurai",
+    "rating": "4.3/5"
 },
 {
-    "id": 2,
-    "name": "Sheeba",
-    "email": "Sheeba26@gmail.com",
-    "phone":" +1 (987) 654-3210",
+    "id": 4,
+    "name": "Aasif",
+    "email": "aasifali2@gmail.com",
+    "phone":" +1 (555) 678-1234",
     "status": "Active",
-    "city": "Chennai"
+    "city": "Theni",
+    "rating": "4.9/5"
+    },
+{
+    "id": 5,
+    "name": "Ritham",
+    "email": "ritham6@gmail.com",
+    "phone":" +1 (444) 987-6543",
+    "status": "Inactive",
+    "city": "Chennai",
+    "rating": "4/5"
 },
 {
-    "id": 2,
-    "name": "Sheeba",
-    "email": "Sheeba26@gmail.com",
-    "phone":" +1 (987) 654-3210",
+    "id": 6,
+    "name": "Aadhi",
+    "email": "aadhi22@gmail.com",
+    "phone":"  +1 (222) 333-4444",
     "status": "Active",
-    "city": "Chennai"
+    "city": "Trichy",
+    "rating": "4.7/5"
+},
+
+{
+    "id": 7,
+    "name": "Suzan",
+    "email": "suzan44@gmail.com",
+    "phone":" +1 (777) 987-6543",
+    "status": "Inactive",
+    "city": "Ooty",
+    "rating": "4.9/5"
 }
 
 ]
+
+
